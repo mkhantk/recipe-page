@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Outfit";
+    font-size: 16px;
+}
+
+.wrapper {
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+    min-width: 375px;
+    margin: 100px 0px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title h1,h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.prep {
+    background-color: hsl(330, 100%, 98%);
+    padding: 2px 28px;
+    border-radius: 10px;
+}
+
+.prep h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredient,.instruction {
+    border-bottom: 1px dotted;
+    padding:10px 0;
+}
+
+/* nothing so far in instruction */
+
+table {
+    width: 100%;
+}
+td {
+    padding-left: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted;
+}
+table .last {
+    border: none;
+}
+table .num {
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+/* other tweaks */
+li {
+    padding-left: 15px;
+}
+ul,ol {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+p,li,td {
+    color: hsl(15, 5%, 29%);
+}
+
+span {
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 375px) {
+    .wrapper {
+        margin: 0;
+        padding: 0;
+    }
+    .wrapper div {
+        margin:0 40px;
+    }
+    img {
+        border-radius: 0;
+    }
+}
