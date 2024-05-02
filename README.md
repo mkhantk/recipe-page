@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot
 
 ![](/assets/images/Frontend%20Mentor%20Recipe%20page%20desktop.png)
-![](/assets/images/Screen%20Shot%202024-05-01%20at%2023.20.57.png)
+![](/assets/images/Screenshot%202024-05-01%20at%2023-25-17%20Frontend%20Mentor%20Recipe%20page.png)
 
 
 ### Links
